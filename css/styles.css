@@ -96,8 +96,6 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   width: 1200px;
-
-  /* outline: 1px solid red; */
 }
 
 /* SOCIALS */
@@ -693,7 +691,7 @@ img {
   transition: color var(--cubic), background-color var(--cubic), box-shadow var(--cubic);
 }
 
-.current-button {
+.current-btn {
   color: var(--black-title-font-color);
   background-color: var(--accent-color);
 }
