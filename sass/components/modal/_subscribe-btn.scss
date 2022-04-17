@@ -1,0 +1,26 @@
+.modal {
+
+&__subscribe-btn {
+    display: block;
+    margin: auto;
+    padding: 10px 55px 10px 56px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+
+    cursor: pointer;
+
+    color: $black-title-font-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: transparent;
+    border-radius: 4px;
+    background-color: $accent-color;
+}
+
+&__subscribe-btn:hover,
+&__subscribe-btn:focus {
+    background-color: $secondary-accent-color;
+}
+}

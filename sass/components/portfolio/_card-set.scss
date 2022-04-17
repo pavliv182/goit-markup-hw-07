@@ -1,0 +1,27 @@
+.card-set {
+    margin-right: calc(-1 * 30px);// $card-set-item-gap вместо "30px" (не работает) 
+    margin-bottom: calc(-1 * 30px);// $card-set-item-gap вместо "30px" (не работает)
+    display: flex;
+    flex-wrap: wrap;
+
+&__item {
+    margin-right: 30px;// $card-set-item-gap вместо "30px" (не работает)
+    margin-bottom: 30px;// $card-set-item-gap вместо "30px" (не работает)
+    flex-basis: calc(100% / 3 - 30px);// $card-set-item-gap вместо "30px" (не работает)
+
+    background: $card-background-color;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+}
+
+&__link {
+    display: block;
+    transition: box-shadow $cubic;
+
+&:hover,
+&:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+}
+}

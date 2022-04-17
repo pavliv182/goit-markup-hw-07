@@ -1,0 +1,23 @@
+.backdrop {
+    width: 100vw;
+    height: 100vh;
+
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    opacity: 1;
+    visibility: visible;
+    pointer-events: initial;
+    transition: opacity $cubic, visibility $cubic;
+
+    background-color: rgba(0, 0, 0, 0.2);
+
+
+&.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+}

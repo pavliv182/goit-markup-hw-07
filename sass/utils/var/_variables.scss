@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+    /* Основные шрифты */
+    $main-font: Roboto, sans-serif;
+    $secondary-font: Raleway, sans-serif;
+
+    /* Цвет заголовков текста светлой темы */
+    $white-title-color: #212121;
+    /* Вторичный цвет текста светлой темы */
+    $secondary-font-color: #757575;
+    /* Цвет текста темной темы */
+    $black-title-font-color: #ffffff;
+    /* Вторичный цвет текста темной темы */
+    $black-secondary-font-color: rgba(255, 255, 255, 0.6);
+
+    /* Цвет акцента */
+    $accent-color: #2196f3;
+    /* Вторичный цвет акцента */
+    $secondary-accent-color: #188ce8;
+    /* Вторичный цвет логотипа */
+    $secondary-logo-color: #000000;
+
+    /* Цвет фона основной */
+    $background-color: #ffffff;
+    /* Цвет фона темной темы */
+    $dark-background-color: #2f303a;
+    /* Вторичный цвет фона темной темы */
+    $dark-secondary-background-color: #f5f4fa;
+    /* Цвет фона карточек */
+    $card-background-color: #ffffff;
+    /* Основной цвет иконок соц.сетей */
+    $icon-color: #afb1b8;
+    /* Вторичный цвет иконок соц.сетей */
+    $secondary-icon-color: #ffffff;
+    /* PORTFOLIO */
+
+    /* Зазор между карточками */
+    // $card-set-item-gap: 30px; Не работает из-за calc
+    /* Cubic */
+    $cubic: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* Модальное Окно */
+    /* Цвет рамки modal__input в hover,focus */
+    $modal-hover-color: rgba(33, 150, 243, 1);

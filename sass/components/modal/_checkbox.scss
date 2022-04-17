@@ -1,0 +1,33 @@
+.checkbox {
+
+&__label {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+&__input {
+    margin-right: 7px;
+    appearance: none;
+}
+
+&__close-icon {
+    margin-right: 8px;
+    display: inline-block;
+    width: 15px;
+    height: 16px;
+    border: 2px solid $white-title-color;
+    border-radius: 2px;
+}
+
+&__input:checked + &__close-icon {
+    border: transparent;
+    background-image: url(../images/icons/modal-check.svg);
+    background-position: center;
+}
+&__link {
+    color: $accent-color;
+    text-decoration: underline;
+}
+}

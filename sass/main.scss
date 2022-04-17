@@ -1,12 +1,18 @@
 // variables
-@import "./var/variables";
-
-// utils
-@import "./utils/is-hidden";
+@import "./utils/var/variables";
 
 // base
 @import "./base/base";
 
 // components
 @import "./components/container";
-
+@import "./components/btn";
+@import "./components/header";
+@import "./components/hero";
+@import "./components/modal/modal";
+@import "./components/features";
+@import "./components/examples";
+@import "./components/team";
+@import "./components/clients";
+@import "./components/footer/module";
+@import "./components/portfolio/portfolio";

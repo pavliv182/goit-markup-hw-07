@@ -1,0 +1,47 @@
+.features {
+    padding-bottom: 0;
+
+
+&__list {
+    display: flex;
+    list-style: none;
+}
+
+&__item {
+    flex-basis: 270px;
+}
+
+&__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+&__icon-wrapper {
+    /* Или padding: 25px 100px; вместо Display-flex */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+
+    border-radius: 4px;
+    background-color: $dark-secondary-background-color;
+}
+
+&__title {
+    margin-bottom: 10px;
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: $white-title-color;
+}
+
+&__text {
+    line-height: 1.71;
+    color: $secondary-font-color;
+}
+}

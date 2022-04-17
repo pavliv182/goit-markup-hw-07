@@ -1,0 +1,34 @@
+@import "./backdrop";
+@import "./close-btn";
+@import "./form";
+@import "./checkbox";
+@import "./subscribe-btn";
+
+.modal {
+
+&-wrapper {
+    position: absolute;
+
+    padding: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 528px;
+
+    background-color: $background-color;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+&__title {
+    display: block;
+    margin-bottom: 30px;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+
+    color: $white-title-color;
+}
+}

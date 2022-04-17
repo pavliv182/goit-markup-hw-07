@@ -1,3 +1,37 @@
+/* HERO */
+
+.hero__btn {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 32px;
+    min-width: 200px;
+    height: 50px;
+
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    align-items: center;
+    letter-spacing: 0.06em;
+
+    cursor: pointer;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: transparent;
+    border-radius: 4px;
+    color: $black-title-font-color;
+    background-color: $accent-color;
+    transition: background-color $cubic;
+}
+
+.hero__btn:hover,
+.hero__btn:focus {
+    background-color: $secondary-accent-color;
+}
+
+/* FEATURES */
+
 .subscribe-btn {
     display: flex;
     padding: 10px 28px 10px 29px;
@@ -9,7 +43,7 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border: transparent;
     border-radius: 4px;
-    background-color: var(--accent-color);
+    background-color: $accent-color;
 }
 
 .subscribe-btn__text {
@@ -22,9 +56,12 @@
 
     letter-spacing: 0.06em;
 
-    color: var(--black-title-font-color);
+    color: $black-title-font-color;
 }
-.portfolio-nav__btn {
+
+/* Portfolio NAV */
+
+.portfolio-filter__btn {
     padding: 6px 22px;
 
     font-weight: 500;
@@ -36,11 +73,21 @@
 
     border-radius: 4px;
     border: transparent;
-    color: var(--white-title-color);
-    background-color: var(--dark-secondary-background-color);
-    transition: color var(--cubic), background-color var(--cubic), box-shadow var(--cubic);
+    color: $white-title-color;
+    background-color: $dark-secondary-background-color;
+    transition: color $cubic, background-color $cubic, box-shadow $cubic;
 }
+
+.portfolio-filter__btn:hover,
+.portfolio-filter__btn:focus {
+    color: $black-title-font-color;
+    background-color: $accent-color;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
 .current-btn {
-    color: var(--black-title-font-color);
-    background-color: var(--accent-color);
+    color: $black-title-font-color;
+    background-color: $accent-color;
 }
+

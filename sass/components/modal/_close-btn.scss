@@ -1,0 +1,32 @@
+.modal {
+
+&__close-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+
+    background: $background-color;
+
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    outline: transparent;
+    cursor: pointer;
+}
+
+&__close-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    fill: $secondary-logo-color;
+    transition: fill $cubic;
+}
+
+&__close-btn:hover &__close-icon,
+&__close-btn:focus &__close-icon {
+    fill: $accent-color;
+}
+}
